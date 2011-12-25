@@ -1,0 +1,7 @@
+<div id="<?php echo $this->wctabsID; ?>">
+<div class="tabs">
+<?php foreach($this->tabsData as $tab): ?>
+<div class="tab"><?php echo $tab; ?></div>
+<?php endforeach; ?>
+</div>
+<div class="contents">
